@@ -46,3 +46,64 @@
     font-size: 26px;
     color: var(--blue);
   }
+  .header-logo span {
+    color: var(--black);
+  }
+  .header__menu,
+.header__contacts {
+  list-style: none;
+}
+.header__contacts {
+    font-weight: 500;
+    font-size: var(--fsize14);
+    letter-spacing: 0.02em;
+  }
+  .header__contacts-item a {
+    color: var(--gray);
+  }
+  .header__menu-item a{
+    color: var(--dark);
+  }
+  .header__menu-item a:hover,
+.header__menu-item a:focus,
+.header__contacts-item a:hover,
+.header__contacts-item a:focus,
+.header__menu-item.active a {
+  color: var(--blue);
+}
+.hero {
+    background-color: var(--darkblue);
+  }
+  .hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+  .hero-btn {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 700;
+    font-size: var(--fsize16);
+    line-height: 1.85;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+  }
+  .benefits__list {
+    list-style: none;
+  }
+  .benefits__list-item {
+    font-size: var(--fsize14);
+  }
+  .benefits__list-title {
+    font-size: inherit;
+    text-transform: uppercase;
+  }
+  .benefits__list-description {
+    color: var(--gray);
+  }
+  
