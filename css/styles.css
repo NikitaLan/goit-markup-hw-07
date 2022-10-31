@@ -1,0 +1,48 @@
+:root {
+    --f-roboto: "Roboto", sans-serif;
+    --f-raleway: "Raleway", sans-serif;
+    --white: #fff;
+    --lwhite: #eee;
+    --black: #000;
+    --dark: #212121;
+    --darkblue: #2f303a;
+    --gray: #757575;
+    --lgray: #f5f4fa;
+    --blue: #2196f3;
+    --fsize36: 36px;
+    --fsize16: 16px;
+    --fsize14: 14px;
+  }
+  body {
+    font-family: var(--f-roboto);
+    font-size: var(--fsize16);
+    line-height: 1.2;
+    color: var(--dark);
+    letter-spacing: 0.03em;
+    background-color: var(--white);
+  }
+  
+  .scr-reader {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  .section-title {
+    font-size: var(--fsize36);
+    text-align: center;
+  }
+  .header a {
+    text-decoration: none;
+  }
+  .header-logo {
+    font-family: var(--f-raleway);
+    font-size: 26px;
+    color: var(--blue);
+  }
