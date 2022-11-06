@@ -13,7 +13,14 @@
     --fsize16: 16px;
     --fsize14: 14px;
   }
-h1,h2,h3,h4,h5,h6,p 
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul 
 {
 margin: 0;
 }
@@ -27,6 +34,25 @@ body {
   background-color: var(--white);
 }
 
+/* Container */
+
+.container 
+{
+width: 1230px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+outline: 2px solid tomato;
+}
+
+.section
+{
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+
+/* ------ */
 .list {
   margin-right: 0;
   margin-left: 0;
