@@ -162,6 +162,7 @@ outline: 2px solid tomato;
     background-color: var(--darkblue);    
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
   }
   .hero-title {
     font-style: normal;
@@ -185,6 +186,10 @@ outline: 2px solid tomato;
     line-height: 1.85;
     letter-spacing: 0.06em;
     cursor: pointer;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    
   }
   
   .hero-btn:hover,
@@ -193,8 +198,15 @@ outline: 2px solid tomato;
 }
 
 /* Benefits */
+.benefits {
+  padding-bottom: 0
+  ;
+}
   .benefits__list {
   list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
 }
 .benefits__list-item {
   font-size: var(--fsize14);
@@ -202,13 +214,23 @@ outline: 2px solid tomato;
 .benefits__list-title {
   font-size: inherit;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .benefits__list-description {
   color: var(--gray);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
+
+/* doing */
 
 .doing__images {
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
   }
 
 /* Team */
