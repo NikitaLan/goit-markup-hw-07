@@ -94,6 +94,8 @@ outline: 2px solid tomato;
   /* Header */
   .header a {
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-logo {
@@ -154,8 +156,12 @@ outline: 2px solid tomato;
   color: var(--blue);
 }
 /* Hero */
+
+
 .hero {
-    background-color: var(--darkblue);
+    background-color: var(--darkblue);    
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
   .hero-title {
     font-style: normal;
@@ -166,6 +172,10 @@ outline: 2px solid tomato;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white);
+
+    max-width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
   .hero-btn {
     background-color: var(--blue);
