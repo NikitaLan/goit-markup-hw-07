@@ -199,8 +199,7 @@ outline: 2px solid tomato;
 
 /* Benefits */
 .benefits {
-  padding-bottom: 0
-  ;
+  
 }
   .benefits__list {
   list-style: none;
@@ -210,6 +209,7 @@ outline: 2px solid tomato;
 }
 .benefits__list-item {
   font-size: var(--fsize14);
+  
 }
 .benefits__list-title {
   font-size: inherit;
@@ -224,21 +224,33 @@ outline: 2px solid tomato;
 }
 
 /* doing */
+.doing-title 
+{
+  margin-bottom: 50px;
+}
 
 .doing__images {
     list-style: none;
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 30px;
-    
   }
 
 /* Team */
   .team {
     background-color: var(--lgray);
   }
+  .team-title 
+  
+  {
+margin-bottom: 50px;
+  }
+
   .team__list {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
   }
   .team__list-item {
     max-width: 270px;
@@ -247,19 +259,34 @@ outline: 2px solid tomato;
     background-color: var(--white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
+
+      
+
+    
   }
   .team__list-title {
     font-size: var(--fsize16);
     font-weight: 500;
     line-height: 1.19;
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
   .team__list-position {
     color: var(--gray);
+    margin-bottom: 30px;
   }
 /* Footer */
   .footer {
     background-color: var(--darkblue);
+    padding-bottom: 60px;
+    padding-top: 60px;
   }
+  
+  .footer-ul {
+
+    margin-top: 20px;
+  }
+  
   .footer a {
     text-decoration: none;
   }
@@ -267,6 +294,7 @@ outline: 2px solid tomato;
     font-family: var(--f-raleway);
     font-size: 26px;
     color: var(--white);
+    
   }
   .footer-logo span {
     color: var(--blue);
@@ -277,6 +305,7 @@ outline: 2px solid tomato;
   }
   .footer-list {
     list-style: none;
+    margin-bottom: 9px;
   }
   .footer-address a {
     font-size: var(--fsize14);
