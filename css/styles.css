@@ -380,18 +380,19 @@ margin: 0 auto;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+    gap: 30px;
     margin-left: calc( -1 * var(--card-set-gap))
     margin-top: calc( -1 * var(--card-set-gap))
-  }
-  .portfolio__item {
     
-    flex-basis: calc(100% / 3 - var(--card-set-gap));
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
-
-    max-width: 370px;
+  }-
+  .portfolio__item 
+  {
+    
+    flex-basis: calc((100% - 60px) / 3)
     background: var(--white);
   }
+
   .portfolio__item a {
     text-decoration: none;
   }
