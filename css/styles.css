@@ -38,10 +38,11 @@ body {
 
 .container 
 {
-width: 1230px;
+width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
+outline: 2px solid red;
 }
 
 .section
@@ -88,6 +89,10 @@ margin: 0 auto;
   .section-title {
     font-size: var(--fsize36);
     text-align: center;
+    font-weight: 50px;
+    line-height: 50px;
+    margin-bottom: 50px;
+    
   }
 
   /* Header */
@@ -188,6 +193,7 @@ margin: 0 auto;
     width: 216px;
     height: 50px;
     border-radius: 4px;
+    border: 0;
     
   }
   
@@ -228,6 +234,11 @@ margin: 0 auto;
   margin-bottom: 50px;
 }
 
+.doing 
+{
+  padding-top: 0;
+}
+
 .doing__images {
     list-style: none;
     display: flex;
@@ -240,7 +251,6 @@ margin: 0 auto;
     background-color: var(--lgray);
   }
   .team-title 
-  
   {
 margin-bottom: 50px;
   }
@@ -257,23 +267,24 @@ margin-bottom: 50px;
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-
-      
-
-    
+      0px 2px 1px rgba(0, 0, 0, 0.2);    
   }
+
+  .team-disc
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
   .team__list-title {
     font-size: var(--fsize16);
     font-weight: 500;
     line-height: 1.19;
-    margin-top: 30px;
     margin-bottom: 10px;
   }
   .team__list-position {
     color: var(--gray);
-    margin-bottom: 30px;
-  }
+      }
 /* Footer */
   .footer {
     background-color: var(--darkblue);
