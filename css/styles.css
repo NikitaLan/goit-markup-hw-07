@@ -12,6 +12,7 @@
     --fsize36: 36px;
     --fsize16: 16px;
     --fsize14: 14px;
+    --card-set-gap: 30px;
   }
 
 img {
@@ -42,7 +43,7 @@ width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
-outline: 2px solid red;
+/* outline: 2px solid red; */
 }
 
 .section
@@ -367,9 +368,6 @@ outline: 2px solid red;
     background-color: var(--lgray);
     padding: 6px 22px;
     
-    
-
-    
   }
   .portfolio-filter .filter-btn:hover,
   .portfolio-filter .filter-btn:focus {
@@ -377,14 +375,21 @@ outline: 2px solid red;
     background-color: var(--blue);
   }
   .portfolio__items {
+
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
+    margin-left: calc(-1*var(--card-set-gap))
+    margin-top: calc(-1*var(--card-set-gap))
+    
     
   }
   .portfolio__item {
+    
+    flex-basis: calc(100% / 3 - var(--card-set-gap));
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
+
     max-width: 370px;
     background: var(--white);
   }
@@ -409,3 +414,10 @@ outline: 2px solid red;
   {
     padding-left: 24px;
   } 
+
+  .card-set 
+  {
+    display: flex;
+    flex-wrap:wrap;
+
+  }
