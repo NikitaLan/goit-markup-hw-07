@@ -288,6 +288,10 @@ outline: 2px solid red;
     margin-top: 20px;
   }
   
+  .footer-ul .footer-list:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
   .footer a {
     text-decoration: none;
   }
@@ -306,7 +310,6 @@ outline: 2px solid red;
   }
   .footer-list {
     list-style: none;
-    margin-bottom: 9px;
   }
   .footer-address a {
     font-size: var(--fsize14);
