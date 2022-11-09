@@ -90,7 +90,6 @@ margin: 0 auto;
   .section-title {
     font-size: var(--fsize36);
     text-align: center;
-    font-weight: 50px;
     line-height: 50px;
     margin-bottom: 50px;
     
@@ -334,7 +333,10 @@ margin: 0 auto;
 .border {
   border: 1px solid #eeeeee;
   border-top: 1px transparent;
-  padding: 20 24 20 24;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
   .portfolio-filter {
@@ -352,8 +354,7 @@ margin: 0 auto;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    gap: 8px
-;
+    gap: 8px;
 
   } 
   
@@ -379,8 +380,8 @@ margin: 0 auto;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-left: calc(-1*var(--card-set-gap))
-    margin-top`: calc(-1*var(--card-set-gap))
+    margin-left: calc( -1 * var(--card-set-gap))
+    margin-top: calc( -1 * var(--card-set-gap))
   }
   .portfolio__item {
     
@@ -399,23 +400,11 @@ margin: 0 auto;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em; 
-    padding-top: 20px;
+    
     margin-bottom: 4px;
   }
   .portfolio__item-category {
     color: var(--gray);
     line-height: 1.88;
-    padding-bottom: 20px;
-  }
-  
-  .portfolio__item-title, .portfolio__item-category
-  {
-    padding-left: 24px;
-  } 
-
-  .card-set 
-  {
-    display: flex;
-    flex-wrap:wrap;
-
+    
   }
