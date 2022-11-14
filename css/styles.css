@@ -137,10 +137,13 @@ margin: 0 auto;
   font-weight: 500;
   font-size: var(--fsize14);
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .header__contacts-item a {
     color: var(--gray);
+    display: flex;
     
   }
 
@@ -158,6 +161,11 @@ margin: 0 auto;
 .header__contacts-item a:focus,
 .header__menu-item.active a {
   color: var(--blue);
+}
+
+.svg-header {
+  margin-right: 10px;
+  fill: currentColor;
 }
 /* Hero */
 
