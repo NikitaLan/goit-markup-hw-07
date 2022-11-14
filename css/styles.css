@@ -243,6 +243,22 @@ margin: 0 auto;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.benefits-svg-container 
+{
+  background: var(--lgray);
+  border-radius: 4px;
+  flex-basis: calc((100% - 90px) / 4);
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 270px;
+  height: 120px;
+}
+.benefits-svg 
+{
+  box-sizing: content-box;
+  margin: auto;
+}
 
 /* doing */
 .doing 
