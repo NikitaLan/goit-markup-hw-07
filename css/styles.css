@@ -557,6 +557,17 @@ margin: 0 auto;
     background: var(--white);
   }
 
+  .portfolio__items-link
+  {
+    display: block;
+    text-decoration: inherit;
+  }
+  
+  .portfolio__items-link:hover,
+  .portfolio__items-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+
   .portfolio__item a {
     text-decoration: none;
   }
@@ -573,8 +584,4 @@ margin: 0 auto;
     line-height: 1.88;
   }
 
-  .portfolio__item:hover,
-  .portfolio__item:focus 
-  {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  }
+  
