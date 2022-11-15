@@ -145,7 +145,7 @@ margin: 0 auto;
 .header__contacts-item a {
     color: var(--gray);
     display: flex;
-    
+  align-items: center;    
   }
 
   .header__menu-item a{
@@ -248,11 +248,9 @@ margin: 0 auto;
 {
   background: var(--lgray);
   border-radius: 4px;
-  flex-basis: calc((100% - 90px) / 4);
   padding: 25px 100px;
   margin-bottom: 30px;
   text-align: center;
-  width: 270px;
   height: 120px;
 }
 .benefits-svg 
@@ -332,14 +330,18 @@ margin: 0 auto;
       justify-content: center;
       width: 44px;
       height: 44px;
-      flex-basis: calc((100% - 90px)/4);
       margin: 0 auto;
       border-radius: 50%;
 
     }
+
+    .team-soc-list:focus,
     .team-soc-list:hover {
       background-color: var(--blue);
     }
+
+    
+
     .team-soc-list:hover .team-soc-logo {
       fill: var(--white);
     }
