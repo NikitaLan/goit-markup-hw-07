@@ -262,6 +262,7 @@ background-color: var(--blue);
   .doing-thumb > .doing-thumb-text {
     position: absolute;
     bottom: 0;
+    left: 0;
   
     width: 100%;
     padding-top: 27px;
@@ -393,20 +394,22 @@ background-color: var(--blue);
       height: 44px;
       margin: 0 auto;
       border-radius: 50%;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
+    .team-soc-logo {
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .team-soc-list:focus,
     .team-soc-list:hover {
       background-color: var(--blue);
-      transition-property: background-color ;
-      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
     }
     .team-soc-list:focus .team-soc-logo, 
     .team-soc-list:hover .team-soc-logo {
       fill: var(--white);
-      transition-property: fill;
-      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
     }
 
       
@@ -434,29 +437,27 @@ background-color: var(--blue);
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
 .clients-logo {
   fill: #afb1b8;
+  
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .reg-cust-list-link:hover,
 .reg-cust-list-link:focus {
   border: 1px solid #2196f3;
-  transition-property: border;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .reg-cust-list-link:focus .clients-logo,
 .reg-cust-list-link:hover .clients-logo {
   fill: var(--blue);
-  transition-property: fill;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
-
-/* .reg-cust-list-link:focus .clients-logo {
-  fill: var(--blue);
-} */
 
 .backdrop {
   position: fixed;
@@ -556,15 +557,18 @@ background-color: var(--blue);
     font-size: var(--fsize14);
     color: var(--white);
     opacity: 0.6;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .footer-address .address-link{
     opacity: 1;
   }
+
+
   .footer-address a:hover,
   .footer-address a:focus {
     opacity: 1;
-    transition-property: opacity;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
   }
 
   .footer-container {
@@ -603,14 +607,16 @@ background-color: var(--blue);
     justify-content: center;
     border-radius: 50%;
 
+    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   }
 
+  
 .footer-soc-item:hover, 
 .footer-soc-item:focus {
   background-color: var(--blue);
-  transition-property: background-color;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .footer-soc-logo {  
   fill: var(--white);
@@ -663,6 +669,9 @@ background-color: var(--blue);
     background-color: var(--lgray);
     padding: 6px 22px;
     
+    transition-property: background-color, color, box-shadow;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--cubic-bezier);
   }
   .portfolio-filter .filter-btn:hover,
   .portfolio-filter .filter-btn:focus {
@@ -671,9 +680,7 @@ background-color: var(--blue);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 
-    transition-property: background-color, color, box-shadow;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--cubic-bezier);
+    
   }
   .portfolio__items {
 
@@ -696,14 +703,14 @@ background-color: var(--blue);
   {
     display: block;
     text-decoration: inherit;
+
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--cubic-bezier);
   }
   
   .portfolio__items-link:hover,
   .portfolio__items-link:focus {
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    
-      transition-duration: var(--transition-duration);
-      transition-timing-function: var(--cubic-bezier);
     
     }
 
@@ -728,13 +735,17 @@ background-color: var(--blue);
   .card-overlay {
     position: relative;
     overflow: hidden;
+
+    display: flex;
+    align-items: center;
   }
   
   .text-overlay {
     position: absolute;
     top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 
-  
     height: 100%;
     padding: 63px 24px;
   
