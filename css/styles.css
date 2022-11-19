@@ -235,8 +235,7 @@ background-color: var(--blue);
     letter-spacing: 0.06em;
     cursor: pointer;
     width: 216px;
-    height: 50px;-
-    border-radius: 4px;
+    height: 50px;
     border: 0;
     
   transition-property: background-color;
@@ -250,6 +249,36 @@ background-color: var(--blue);
   background-color: #188ce8;
   }
 
+  /* Doing section */
+
+  .doing {
+    padding-top: 0;
+  }
+
+  .doing-thumb {
+    position: relative;
+  }
+  
+  .doing-thumb > .doing-thumb-text {
+    position: absolute;
+    bottom: 0;
+  
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+
+
+  
 /* Benefits */
 .benefits {
   
