@@ -733,7 +733,7 @@ background-color: var(--blue);
   .text-overlay {
     position: absolute;
     top: 0;
-    /* overflow: auto; */
+
   
     height: 100%;
     padding: 63px 24px;
