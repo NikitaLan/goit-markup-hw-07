@@ -498,7 +498,7 @@ background-color: var(--blue);
   outline: transparent;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
-  cursor: pointer;
+  cursor: text;
 
   transition: border-color var(--transition-duration) var(--cubic-bezier);
 }
@@ -673,15 +673,15 @@ background-color: var(--blue);
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
+  color: #757575;
 
-  cursor: pointer;
+  cursor: text;
 
   transition: border-color var(--transition-duration) var(--cubic-bezier);
 }
 
 .form-input::placeholder {
-  color: rgba(117, 117, 117, 0.5);
+  color: rgba(117, 117, 117, 0.5)
 }
 
 .form-input:focus {
@@ -751,7 +751,8 @@ background-color: var(--blue);
   background-color: var(--blue);
 }
 .checkbox {
-  visibility: hidden;
+  opacity: 0; 
+  position: absolute;
 }
 
 .new-checkbox {
@@ -763,7 +764,7 @@ background-color: var(--blue);
   height: 15px;
 
   border: 2px solid #212121;
-  border-radius: 3px;
+  border-radius: 2px;
   background-color: transparent;
   fill:var(--white);
 
@@ -774,6 +775,7 @@ background-color: var(--blue);
   transition: background-color var(--transition-duration) var(--cubic-bezier),
     border-color var(--transition-duration) var(--cubic-bezier);
 }
+
 
 .checkbox:checked + .policy-field > .new-checkbox {
   border: 2px solid transparent;
@@ -874,7 +876,7 @@ background-color: var(--blue);
 
   .footer-soc {
     margin-left: 70px;
-    margin-right: 93px;
+    margin-right: auto;
     
   }
   
