@@ -18,13 +18,16 @@
     <title>WebStudio</title>
   </head>
   <body>
+
+    <!-- Header -->
+
     <header class="header">
-      <div class="container header-container">
-        <a class="logo header-logo" href="/">Web<span>Studio</span></a>
+      <div class="header__container">
+        <a class="header__logo" href="/">Web<span >Studio</span></a>
         <nav class="header__nav">
           <ul class="header__menu list">
-            <li class="header__menu-item active">
-              <a class="header-link" href="./index.html">Студія</a>
+            <li class="header__menu-item header__menu-item--active">
+              <a class="header__link" href="./index.html">Студія</a>
             </li>
             <li class="header__menu-item">
               <a class="animate" href="./portfolio.html">Портфоліо</a>
@@ -37,7 +40,7 @@
         <ul class="header__contacts list">
           <li class="header__contacts-item">
             <a class="animate" href="mailto:info@devstudio.com">
-              <svg class="svg-header" width="16" height="12">
+              <svg class="header__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
@@ -45,7 +48,7 @@
           </li>
           <li class="header__contacts-item">
             <a class="animate" href="tel:+380961111111">
-              <svg class="svg-header" width="10" height="16">
+              <svg class="header__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -54,61 +57,66 @@
         </ul>
       </div>
     </header>
+
     <!-- Main -->
+
     <main class="main">
       <section class="hero section">
-        <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
+        <div class="hero__container container">
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero__btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
+
+      <!-- Benefits -->
+
       <section class="benefits section">
-        <div class="container benefits-container">
-          <h2 class="section-title benefits-title scr-reader">Наші переваги</h2>
+        <div class="container benefits__container">
+          <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="benefits__list list">
             <li class="benefits__list-item">
-              <div class="benefits-svg-container">
-                <svg class="benefits-svg" width="70" height="70">
+              <div class="benefits__icon-container">
+                <svg class="benefits-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
               <h3 class="benefits__list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="benefits__list-description">
+              <p class="benefits-list__description">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
             <li class="benefits__list-item">
-              <div class="benefits-svg-container">
-                <svg class="benefits-svg" width="70" height="70">
+              <div class="benefits__icon-container">
+                <svg class="benefits-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
               <h3 class="benefits__list-title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="benefits__list-description">
+              <p class="benefits-list__description">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
             <li class="benefits__list-item">
-              <div class="benefits-svg-container">
-                <svg class="benefits-svg" width="70" height="70">
+              <div class="benefits__icon-container">
+                <svg class="benefits-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
               <h3 class="benefits__list-title">ПЛАНУВАННЯ</h3>
-              <p class="benefits__list-description">
+              <p class="benefits-list__description">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="benefits__list-item">
-              <div class="benefits-svg-container">
-                <svg class="benefits-svg" width="70" height="70">
+              <div class="benefits__icon-container">
+                <svg class="benefits-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
               <h3 class="benefits__list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="benefits__list-description">
+              <p class="benefits-list__description">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -116,22 +124,25 @@
           </ul>
         </div>
       </section>
-      <section class="doing section">
-        <div class="container">
+      
+      <!-- Work -->
+
+      <section class="work section">
+        <div class="work_container">
           <h2 class="section-title doing-title">Чим ми займаємося</h2>
-          <ul class="doing__images list">
-            <li class="doing__images-item">
-              <div class="doing-thumb">
+          <ul class="work-list list">
+            <li class="work-list__item">
+              <div class="work-list__thumb">
                 <img
                 src="./images/doing__img1.jpg"
                 width="370"
                 height="294"
                 alt="web develop"
               />
-              <p class="doing-thumb-text">Десктопні додатки</p>
+              <p class="work-list__label">Десктопні додатки</p>
               </div>
             </li>
-            <div class="doing-thumb">
+            <div class="work-list__thumb">
               <li class="doing__images-item">
                 <img
                   src="./images/doing__img2.jpg"
@@ -140,9 +151,9 @@
                   alt="design"
                 />
               </li>
-              <p class="doing-thumb-text" > Мобільні додатки  </p>
+              <p class="work-list__label" > Мобільні додатки  </p>
             </div>
-            <div class="doing-thumb">
+            <div class="work-list__thumb">
               <li class="doing__images-item">
                 <img
                 src="./images/doing__img3.jpg"
@@ -151,11 +162,14 @@
                   alt="design"
                 />
               </li>
-              <p class="doing-thumb-text" > Дизайнерські рішення  </p>
+              <p class="work-list__label" > Дизайнерські рішення  </p>
             </div>
           </ul>
         </div>
       </section>
+
+      <!-- Team section -->
+
       <section class="team section">
         <div class="container">
           <h2 class="section-title team-title">Наша команда</h2>
