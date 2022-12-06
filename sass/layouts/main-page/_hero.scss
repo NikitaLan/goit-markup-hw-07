@@ -1,11 +1,7 @@
 .hero {
     background-color: var(--darkblue); 
     max-width: 1600px;
-   
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    
 
     padding-top: 200px;
     padding-bottom: 200px;
@@ -53,16 +49,3 @@
 
   }
 
-  
-  .hero_section 
-  {
-    position: relative;
-  }
-
-  .hero__container {
-
-    display: flex;
-    align-items: center;
-    position: absolute;
-
-  }

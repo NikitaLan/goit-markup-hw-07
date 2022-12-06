@@ -79,10 +79,6 @@
 .hero {
   background-color: var(--darkblue);
   max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -123,16 +119,6 @@
 }
 .hero__btn:hover, .hero__btn:focus {
   background-color: var(--btn-back-color);
-}
-
-.hero_section {
-  position: relative;
-}
-
-.hero__container {
-  display: flex;
-  align-items: center;
-  position: absolute;
 }
 
 .benefits__list {
@@ -940,7 +926,7 @@ body {
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .section-title {
