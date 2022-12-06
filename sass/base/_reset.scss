@@ -1,0 +1,28 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1,h2,h3,h4,h5,h6,p,ul 
+  {
+  margin: 0;
+  }
+  
+  
+  .list {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  body {
+    font-family: var(--f-roboto);
+    font-size: var(--fsize16);
+    line-height: 1.2;
+    color: var(--dark);
+    letter-spacing: 0.03em;
+    background-color: var(--white);
+  }

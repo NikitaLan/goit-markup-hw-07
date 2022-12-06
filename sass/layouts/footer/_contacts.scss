@@ -1,0 +1,35 @@
+.address {
+    font-style: normal;
+    margin-top: 20px;
+  
+  &__text {
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--white);
+  }
+  
+  }
+  
+  
+  .address-list__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  
+  .address-list__link {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--cubic-bezier);
+  
+  &:hover,
+  &:focus {
+    color: var(--white);
+  }
+  }

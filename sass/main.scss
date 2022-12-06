@@ -1,0 +1,46 @@
+
+// Main layout
+
+
+@import "./layouts/main-page/header";
+@import "./layouts/main-page/hero";
+@import "./layouts/main-page/benefits";
+@import "./layouts/main-page/work";
+@import "./layouts/main-page/team";
+@import "./layouts/main-page/regular-customer";
+
+
+
+// Footer
+
+@import "./layouts/footer/footer";
+@import "./layouts/footer/footer-subscription";
+@import "./layouts/footer/contacts";
+@import "./layouts/footer/footer-soc-list";
+
+// Base
+
+@import "./base/reset";
+
+// components
+@import "./components/logo";
+@import "./components/modal";
+
+
+// portfolio
+
+@import "./portfolio-layout/portfolio-cards";
+@import "./portfolio-layout/portfolio-filter";
+
+
+
+
+// Utility
+@import "./Utility/portfolio-header-port";
+@import "./Utility/variables";
+@import "./Utility/visually-hidden";
+@import "./Utility/.container";
+@import "./Utility/section";
+
+
+

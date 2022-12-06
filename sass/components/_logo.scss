@@ -1,0 +1,28 @@
+.logo {
+  font-family: var(--f-raleway);
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: inherit;
+  
+  &__text {
+  color: var(--blue);
+}
+}
+
+
+
+.header__logo {
+    font-family: var(--f-raleway); 
+    margin-right: 93px;
+  }
+
+  .header__logo {
+  color: var(--black);
+}
+
+.footer__logo {
+
+    color: var(--white);
+    
+  } 
