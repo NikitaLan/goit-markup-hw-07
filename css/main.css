@@ -125,6 +125,11 @@
   background-color: var(--btn-back-color);
 }
 
+.hero__container {
+  display: flex;
+  align-items: center;
+}
+
 .benefits__list {
   list-style: none;
   display: flex;
