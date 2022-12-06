@@ -125,9 +125,14 @@
   background-color: var(--btn-back-color);
 }
 
+.hero_section {
+  position: relative;
+}
+
 .hero__container {
   display: flex;
   align-items: center;
+  position: absolute;
 }
 
 .benefits__list {
